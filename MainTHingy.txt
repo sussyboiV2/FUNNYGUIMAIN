@@ -73,15 +73,15 @@ local Sornic = fling:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/sonic.txt"))()
    end,
 })
-local DSW = Window:CreateTab("Games", 14546883971) -- Title, Image
-
-local Nox = DSW:CreateButton({
+local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
+local DANDYSWORLD = FE:CreateLabel("Dandy's World", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local Nox = Games:CreateButton({
    Name = "Noxious Hub",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Noxious.txt"))()
    end,
 })
-local Gobby = DSW:CreateButton({
+local Gobby = Games:CreateButton({
    Name = "G0bbyD0llan's Dandys World Script",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Gobby.txt"))()
