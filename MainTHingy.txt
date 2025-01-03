@@ -73,7 +73,7 @@ local Sornic = fling:CreateButton({
    end,
 })
 local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
-local DWLABEL = Games:CreateLabel("Dandys World", 4483362458, Color3.fromRGB(182, 100, 234), false) -- Title, Icon, Color, IgnoreTheme
+local DWLabel = Games:CreateParagraph({Title = "Dandy's World", Content = "i hate this game"})
 local Nox = Games:CreateButton({
    Name = "Noxious Hub",
    Callback = function()
