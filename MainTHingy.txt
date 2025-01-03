@@ -74,7 +74,7 @@ local Sornic = fling:CreateButton({
    end,
 })
 local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
-local DANDYSWORLD = FE:CreateLabel("Dandy's World", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local DANDYSWORLD = Games:CreateLabel("Dandy's World", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 local Nox = Games:CreateButton({
    Name = "Noxious Hub",
    Callback = function()
