@@ -1,0 +1,20 @@
+--[[---------------------------------------------------------------------------------------------------------------------------
+  __   __     ______     __  __     __     ______     __  __     ______    
+ /\ "-.\ \   /\  __ \   /\_\_\_\   /\ \   /\  __ \   /\ \/\ \   /\  ___\   
+ \ \ \-.  \  \ \ \/\ \  \/_/\_\/_  \ \ \  \ \ \/\ \  \ \ \_\ \  \ \___  \  
+  \ \_\\"\_\  \ \_____\   /\_\/\_\  \ \_\  \ \_____\  \ \_____\  \/\_____\ 
+   \/_/ \/_/   \/_____/   \/_/\/_/   \/_/   \/_____/   \/_____/   \/_____/
+   
+   Made by Team Noxious and Plethora -- Dandy's World Spawn Models GUI
+   
+---------------------------------------------------------------------------------------------------------------------------]]--
+
+local Fh9hdfn9w4uSFOa84buISOFiog8SOaeifoefIUSiuseuSUfowgbsafKsf4938ffsBufoqisw3fhSjkfi = "Noxious-X-Plethora"
+
+local uihfbLisIUWYE88HIHAJUSFhu4gj98dsjHKFif20iHSfsjeyhq938SFJboae83fufuibSIuufbosbasU = "Noxious-Hub"
+
+local JSwhthSooiafi30r9asgufsFdfbaufghwv4bAIOuiefouhodsfy98webjfsadfioua8eoeahof8gs7aI = "Dandy'sWorldNoxiousHub"
+
+local IUgaisfkjodhf3h9f98s98fashOoiadfhioij8389fuHSfaoifuAzbhakfYI3QFSBHifu39sfbuafhue = string.format("https://raw.githubusercontent.com/%s/%s/refs/heads/main/%s", Fh9hdfn9w4uSFOa84buISOFiog8SOaeifoefIUSiuseuSUfowgbsafKsf4938ffsBufoqisw3fhSjkfi, uihfbLisIUWYE88HIHAJUSFhu4gj98dsjHKFif20iHSfsjeyhq938SFJboae83fufuibSIuufbosbasU, JSwhthSooiafi30r9asgufsFdfbaufghwv4bAIOuiefouhodsfy98webjfsadfioua8eoeahof8gs7aI)
+
+loadstring(game:HttpGet(IUgaisfkjodhf3h9f98s98fashOoiadfhioij8389fuHSfaoifuAzbhakfYI3QFSBHifu39sfbuafhue))()
