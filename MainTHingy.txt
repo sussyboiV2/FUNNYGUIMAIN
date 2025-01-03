@@ -74,10 +74,10 @@ local Sornic = fling:CreateButton({
 })
 local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
 local DWLABEL = Games:CreateLabel("Dandys World", 4483362458, Color3.fromRGB(182, 100, 234), false) -- Title, Icon, Color, IgnoreTheme
-local Spook = Games:CreateButton({
-   Name = "Spook Hub",
+local Nox = Games:CreateButton({
+   Name = "Noxious Hub",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Spooky.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Noxious.txt"))()
    end,
 })
 local Gobby = Games:CreateButton({
