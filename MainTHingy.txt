@@ -60,7 +60,7 @@ local Jerk = FE:CreateButton({
    end,
 })
 local Hug = FE:CreateButton({
-   Name = "FE Hug (Where my hug at?😈😈😈)",
+   Name = "FE Hug (Where my hug at?😈😈😈 Only R6)",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Hug.txt"))()
    end,
