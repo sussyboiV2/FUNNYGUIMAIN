@@ -72,7 +72,6 @@ local Sornic = fling:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/sonic.txt"))()
    end,
 })
-local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
 local Deleter = Misc:CreateButton({
    Name = "Destroy Gui",
