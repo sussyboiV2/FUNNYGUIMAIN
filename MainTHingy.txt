@@ -34,7 +34,7 @@ local Window = Rayfield:CreateWindow({
   
 })
 local Animations = Window:CreateTab("Animations", 14546883971)
-local Jerk = Animations:CreateButton({
+local FreeEmote = Animations:CreateButton({
    Name = "Free Roblox Emotes",
    Callback = function()
  loadstring(game:HttpGet("https://yarhm.goteamst.com/scr?channel=afem", false))()
