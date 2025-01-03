@@ -53,6 +53,18 @@ local Invis = FE:CreateButton({
  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/invis.txt"))()
    end,
 })
+local Jerk = FE:CreateButton({
+   Name = "FE SUSSY (AYO WHAT)",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Jerky.txt"))()
+   end,
+})
+local Hug = FE:CreateButton({
+   Name = "FE Hug (Where my hug at?😈😈😈)",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Hug.txt"))()
+   end,
+})
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
 local Deleter = Misc:CreateButton({
    Name = "Destroy Gui",
