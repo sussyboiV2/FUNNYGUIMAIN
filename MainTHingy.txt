@@ -33,7 +33,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local FE = Window:CreateTab("Universal", 14546883971)
-
+local FEOP = FE:CreateLabel("Universal OP Section", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
    Callback = function()
@@ -46,7 +46,7 @@ local Rew = FE:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
  })
-
+local FEA = FE:CreateLabel("Universal Animation Section", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
 local FreeEmote = FE:CreateButton({
    Name = "Free Roblox Emotes (R15 ONLY)",
    Callback = function()
