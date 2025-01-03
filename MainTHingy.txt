@@ -1,4 +1,3 @@
-
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Funny Gui V1",
@@ -55,8 +54,6 @@ local FreeEmote = FE:CreateButton({
    end,
 })
 
-
-
 local Jerk = FE:CreateButton({
    Name = "FE SUSSY (AYO WHAT)",
    Callback = function()
@@ -77,7 +74,7 @@ local Sornic = fling:CreateButton({
    end,
 })
 local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
-local DWLabel = Games:CreateParagraph({Title = "Dandy's World", Content = "i hate this game"})
+
 local Nox = Games:CreateButton({
    Name = "Noxious Hub",
    Callback = function()
