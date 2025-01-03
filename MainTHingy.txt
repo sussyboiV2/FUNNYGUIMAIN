@@ -34,7 +34,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local FE = Window:CreateTab("Universel", 14546883971)
-local DM = Games:CreateParagraph({Title = "Universal FE Mechanics", Content = "Affects Gameplay alot!"})
+
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
    Callback = function()
@@ -47,7 +47,6 @@ local Rew = FE:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
  })
-local DA = Games:CreateParagraph({Title = "Universal FE Animations", Content = "Dont Effect Much."})
 
 local FreeEmote = FE:CreateButton({
    Name = "Free Roblox Emotes (R15 ONLY)",
