@@ -47,6 +47,12 @@ local Rew = FE:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
 })
+local Invis = FE:CreateButton({
+   Name = "FE Invis (its so good. try in mm2)",
+   Callback = function()
+ https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/invis.txt
+   end,
+})
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
 local Deleter = Misc:CreateButton({
    Name = "Destroy Gui",
