@@ -35,7 +35,6 @@ local Window = Rayfield:CreateWindow({
   
 })
 local FE = Window:CreateTab("Universel", 14546883971)
-local UM = Games:CreateParagraph({Title = "Universal FE Mechanics", Content = "Things that affect gameplay heavily"})
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
    Callback = function()
