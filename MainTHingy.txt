@@ -32,8 +32,9 @@ local Window = Rayfield:CreateWindow({
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
       Key = {"SPRUNKI-IS-MID"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
-  local FE = Window:CreateTab("Universel", 14546883971)
+  
 })
+local FE = Window:CreateTab("Universel", 14546883971)
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
    Callback = function()
