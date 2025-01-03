@@ -1,3 +1,4 @@
+
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
    Name = "Funny Gui V1",
@@ -39,10 +40,11 @@ local FreeEmote = FE:CreateButton({
    Callback = function()
  loadstring(game:HttpGet("https://yarhm.goteamst.com/scr?channel=afem", false))()
    end,
-local Rewind = FE:CreateButton({
-   Name = "Rewind (Hold E to rewind)",
+})
+local Rew = FE:CreateButton({
+   Name = "FE REWIND (Hold E to rewind)",
    Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
 })
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
@@ -52,3 +54,4 @@ local Deleter = Misc:CreateButton({
 Rayfield:Destroy()
    end,
 })
+
