@@ -32,7 +32,7 @@ local Window = Rayfield:CreateWindow({
       Key = {"SPRUNKI-IS-MID"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local FE = Window:CreateTab("Universel", 14546883971)
+local FE = Window:CreateTab("Universal", 14546883971)
 
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
