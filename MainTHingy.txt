@@ -42,7 +42,7 @@ local FreeEmote = FE:CreateButton({
 local Rewind = FE:CreateButton({
    Name = "Rewind (Hold E to rewind)",
    Callback = function()
-https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt
+loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
 })
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
