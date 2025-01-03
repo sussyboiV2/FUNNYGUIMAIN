@@ -34,7 +34,7 @@ local Window = Rayfield:CreateWindow({
    }
   
 })
-local FE = Window:CreateTab("FE Stuff", 14546883971)
+local FE = Window:CreateTab("Universal", 14546883971)
 local FreeEmote = FE:CreateButton({
    Name = "Free Roblox Emotes (R15 ONLY)",
    Callback = function()
