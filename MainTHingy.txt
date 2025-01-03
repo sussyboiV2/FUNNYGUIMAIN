@@ -65,12 +65,13 @@ local Hug = FE:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Hug.txt"))()
    end,
 })
-local Fling = Window:CreateTab("Fling Stuff", 14546883971)
-local Sonic = Fling:CreateButton({
+local fling = Window:CreateTab("Fling Stuff", 9359583255)
+local Sornic = fling:CreateButton({
    Name = "Sonic fling (Only R6, Look at console for controls.)",
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/sonic.txt"))()
    end,
+})
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
 local Deleter = Misc:CreateButton({
    Name = "Destroy Gui",
@@ -78,4 +79,3 @@ local Deleter = Misc:CreateButton({
 Rayfield:Destroy()
    end,
 })
-
