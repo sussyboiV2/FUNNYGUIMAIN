@@ -46,7 +46,7 @@ local Rew = FE:CreateButton({
    Callback = function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
-
+ })
 local DA= Games:CreateParagraph({Title = "Universal FE Animations", Content = "Dont Effect Much."})
 
 local FreeEmote = FE:CreateButton({
