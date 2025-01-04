@@ -59,7 +59,7 @@ local Rew = FE:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/scripts/refs/heads/main/Rewind.txt"))()
    end,
  })
-local FEA = FE:CreateLabel("Universal Animation Section", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local FEA = FE:CreateLabel("Universal Animation Section", 4483362458, Color3.fromRGB(255, 255, 255), true) -- Title, Icon, Color, IgnoreTheme
 local FreeEmote = FE:CreateButton({
    Name = "Free Roblox Emotes (R15 ONLY)",
    Callback = function()
@@ -87,7 +87,7 @@ local Sornic = fling:CreateButton({
    end,
 })
 local Games = Window:CreateTab("Games", 14546883971) -- Title, Image
-local DANDYSWORLD = Games:CreateLabel("Dandy's World", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
+local DANDYSWORLD = Games:CreateLabel("Dandy's World", 4483362458, Color3.fromRGB(255, 255, 255), true) -- Title, Icon, Color, IgnoreTheme
 local Nox = Games:CreateButton({
    Name = "Noxious Hub",
    Callback = function()
@@ -101,8 +101,8 @@ local Gobby = Games:CreateButton({
    end,
 })
 local TSB = Window:CreateTab("TSB", 14546883971) -- Title, Image
-local GTSB = TSB:CreateLabel("General TSB Scripts", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme
-local CMS = TSB:CreateLabel("Custom Movesets", 4483362458, Color3.fromRGB(255, 255, 255), false) -- Title, Icon, Color, IgnoreTheme 
+local GTSB = TSB:CreateLabel("General TSB Scripts", 4483362458, Color3.fromRGB(255, 255, 255), true) -- Title, Icon, Color, IgnoreTheme
+local CMS = TSB:CreateLabel("Custom Movesets", 4483362458, Color3.fromRGB(255, 255, 255), true) -- Title, Icon, Color, IgnoreTheme 
 local Mahito = TSB:CreateButton({
    Name = "Mahito Moveset (Equip Martial Artist)",
    Callback = function()
