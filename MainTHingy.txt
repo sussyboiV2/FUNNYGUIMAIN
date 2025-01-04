@@ -33,7 +33,7 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local FE = Window:CreateTab("Universal", 14546883971)
-local FEOP = FE:CreateLabel("Universal OP Section", 4483362458, Color3.fromRGB(255, 255, 255), true) -- Title, Icon, Color, IgnoreTheme
+local FEOP = FE:CreateLabel("Universal OP Section", 4483362458, Color3.fromRGB(90, 90, 90), true) -- Title, Icon, Color, IgnoreTheme
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
    Callback = function()
