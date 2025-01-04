@@ -40,6 +40,12 @@ local Invis = FE:CreateButton({
  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/invis.txt"))()
    end,
 })
+local InfYield = FE:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
 local Rew = FE:CreateButton({
    Name = "FE REWIND (Hold E to rewind)",
    Callback = function()
