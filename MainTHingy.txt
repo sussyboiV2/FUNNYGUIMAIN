@@ -108,6 +108,12 @@ local KJ = TSB:CreateButton({
   loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/KJ.txt"))()
    end,
 })
+local FloatGirl = TSB:CreateButton({
+   Name = "Floating Girl (Equip Atomic Samurai)",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
+   end,
+})
 
 
 
