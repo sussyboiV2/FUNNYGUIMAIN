@@ -11,8 +11,8 @@ local Window = Rayfield:CreateWindow({
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
+      FolderName = Diddysfunandstuff, -- Create a custom folder for your hub/game
+      FileName = "Funny Gui"
    },
 
    Discord = {
@@ -33,6 +33,13 @@ local Window = Rayfield:CreateWindow({
    }
 })
 local FE = Window:CreateTab("Universal", 14546883971)
+local AdminLabel = FE:CreateLabel("Admin Scripts", 4483362458, Color3.fromRGB(90, 90, 90), true) -- Title, Icon, Color, IgnoreTheme
+local InfYield = FE:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+   end,
+})
 local FEOP = FE:CreateLabel("Universal OP Section", 4483362458, Color3.fromRGB(90, 90, 90), true) -- Title, Icon, Color, IgnoreTheme
 local Invis = FE:CreateButton({
    Name = "FE Invis (its so good. try in mm2)",
