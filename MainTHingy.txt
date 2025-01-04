@@ -99,11 +99,19 @@ local Mahito = TSB:CreateButton({
 local jjsGojo = TSB:CreateButton({
    Name = "JJS Gojo (Equip Strongest Hero)",
    Callback = function()
-  (game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/GojoJJS.txtloadstring"))()
+  (game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/GojoJJS.txt"))()
+   end,
+})
+local KJ = TSB:CreateButton({
+   Name = "Fake KJ (Equip Strongest Hero)",
+   Callback = function()
+  (game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/KJ.txt"))()
    end,
 })
 
-local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image
+
+
+local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image 
 local Deleter = Misc:CreateButton({
    Name = "Destroy Gui",
    Callback = function()
