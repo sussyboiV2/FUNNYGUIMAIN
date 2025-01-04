@@ -111,10 +111,15 @@ local KJ = TSB:CreateButton({
 local FloatGirl = TSB:CreateButton({
    Name = "Floating Girl (Equip Atomic Samurai)",
    Callback = function()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Reapvitalized/TSB/refs/heads/main/FLOATING_GIRL.lua"))() 
    end,
 })
-
+local UNS = TSB:CreateButton({
+   Name = "Unnamed Suiryu (Equip Martial Artist)",
+   Callback = function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Unnamed%20Suiryu"))()
+   end,
+})
 
 
 local Misc = Window:CreateTab("Misc", 14546883971) -- Title, Image 
