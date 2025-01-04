@@ -93,13 +93,13 @@ local CMS = TSB:CreateLabel("Custom Movesets", 4483362458, Color3.fromRGB(255, 2
 local Mahito = TSB:CreateButton({
    Name = "Mahito Moveset (Equip Martial Artist)",
    Callback = function()
-  https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Mahito
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/Mahito"))()
    end,
 })
 local jjsGojo = TSB:CreateButton({
    Name = "JJS Gojo (Equip Strongest Hero)",
    Callback = function()
-  https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/GojoJJS.txt
+  (game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/GojoJJS.txtloadstring"))()
    end,
 })
 
