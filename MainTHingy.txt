@@ -47,10 +47,14 @@ local Invis = FE:CreateButton({
  loadstring(game:HttpGet("https://raw.githubusercontent.com/sussyboiV2/FUNNYGUIMAIN/refs/heads/main/invis.txt"))()
    end,
 })
-local InfYield = FE:CreateButton({
-   Name = "Infinite Yield",
+local Rochips = FE:CreateButton({
+   Name = "Rochips v6",
    Callback = function()
- loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+if "Rochips Loader" then
+	local Rochips_panel,v,u,i=loadstring,"/snippets","gwwv","/raw/main.lua" ;
+	Rochips_panel(game:HttpGet("https://glot.io"..v.."/" ..u.."877ga3"..i))();
+	return "it will load in around 3 - 131 seconds"
+end
    end,
 })
 local Rew = FE:CreateButton({
